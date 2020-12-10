@@ -1,0 +1,201 @@
+body {
+	min-width: 320px;
+	background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);;
+	font-family: 'Montserrat-Regular', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #111;
+	min-height: 800px;
+}
+
+header, section, footer {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+#mainBox{
+	max-width: 700px;
+	margin: 10px auto;
+	padding: 20px;
+	background: #fff;
+}
+
+.topBlock{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 0px 5px 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+.topBlock h3{
+	width: 400px;
+}
+
+.topBlock p{
+	margin-left: 20px;
+}
+
+.centerBlock{
+	margin: 20px 0px;
+}
+
+.centerBlock p {
+	text-align: center;
+}
+
+.botslider{
+	margin-top: 50px;
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+.priceBox{
+	background: #50bc19;
+   width: 280px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+   border-radius: 2px;
+   padding: 10px 0px;
+   display: flex;
+   justify-content: center;
+}
+
+.priceBox p{
+	font-family: "Montserrat-Bold", sans-serif;
+	color: #fff;
+   font-size: 18px;
+   text-decoration: line-through;
+}
+
+.priceBox p:nth-child(2){
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+#orderForm{
+	width: 100%;
+	display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.fieldin{
+	height: 35px;
+   margin-right: 10px;
+   width: 200px;
+   padding-left: 5px;
+}
+
+.button{
+	padding: 5px;
+   background-image: linear-gradient(to right top, #a8eb12, #8ad910, #6dc70f, #4fb50e, #2da30d);
+   border: none;
+   color: #fff;
+   font-family: "Montserrat-Bold", sans-serif;
+   cursor: pointer;
+   border-radius: 4px;
+   width: 200px;
+}
+
+.button:hover{
+	background-image: linear-gradient(to right top, #2da30d, #4fb50e, #6dc70f, #8ad910, #a8eb12);
+}
+
+.orderInfo{
+	margin: 30px 0px 20px 30px;
+	font-size: 15px;
+}
+
+.callus{
+	padding: 10px 20px;
+   background: #15a7d3;
+   font-size: 18px;
+   color: #fff;
+   text-align: center;
+}
+
+.contactBox{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 70px 0px 30px 0px;
+}
+
+.contactLeft{
+	width: 300px;
+}
+
+.contactRight{
+	width: 300px;
+	margin-left: 20px;
+}
+
+.contactRight p{
+	padding: 5px 0px;
+}
+
+footer{
+	background: #d9d9d9;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+footer a{
+	color: #333;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 600px){
+	.button{
+		width: 250px;
+		height: 40px;
+	}
+	.topBlock{
+		flex-direction: column;
+    	text-align: center;
+	}
+	.topBlock h3{
+		width: 100%;
+	}
+	.topBlock p{
+		margin: 10px 0px 0px 0px;
+	}
+	#orderForm{
+		flex-direction: column;
+		align-items: center;
+	}
+	.fieldin{
+		width: 250px;
+		margin: 5px 0px;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	.slider{
+		width: 100%;
+	}
+	.slider .item img{
+		width: 100%;
+		height: 100%;
+	}
+	.contactBox{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+	
+
+}
